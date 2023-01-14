@@ -2,7 +2,7 @@
 
 In this project we present a timeseries analysis of flight delays and forecast the future delays using the flight dates, departure delays of particular airlines from 2009-2017.
 
-To start with, we selected SouthWest airline as it has the minimum number of outliers. We then applied the ADF test to get the ADF statistic. Since the p-value and ADF statistic obtained are less than the upperbound conditions, hence we can say that the series is stationary.
+To start with, we selected SouthWest airline as it has minimum number of outliers. We then applied the ADF test to determine whether the series is stationary. Since the p-value and ADF statistic obtained are less than the upperbound conditions, we concluded that the series is stationary.
 
 From the partial auto-correlation plot, we can see that there is no need for moving average term. Also, the PACF plot shows zero lag drop at lag=5, therefore we can use the arima model for lag of 5.
 
